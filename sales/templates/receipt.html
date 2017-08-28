@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Customer Receipt</title>
+    
+    <style>
+   body {
+    margin-top: 20px;
+	}
+    </style>
+</head>
+<body>
+           	<h3> Customer Receipt for: {{p}} </h3>
+           	<hr> <ul>
+            {% for pi in pi %}
+             	<li>{{pi}} </li>
+            {%endfor%}
+            </ul> <br>
+            <h5> Total: N{{p.total_amount_to_be_paid_by_purchaser}} </h5>
+            <h5> Comments: {{ p.comments }}</h5>
+            <br>
+            <p align="left">Note that refunds are not available</p>
+</body>
+</html>

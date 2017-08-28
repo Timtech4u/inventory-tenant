@@ -1,0 +1,16 @@
+uuid
+django==1.9
+reversion
+xlwt
+future
+django-crispy-forms>=1.6.0
+django-reversion~=2.0.0
+django-formtools==2.0
+weasyprint
+django-import-export
+django-admin-tools
+django-yaaac
+django-grappelli
+django-tenant-schemas
+whitenoise
+gunicorn
